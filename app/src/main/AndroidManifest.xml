@@ -31,6 +31,7 @@
         <activity android:name=".view.activity.FunctionModuleActivity"/>
         <activity android:name=".view.activity.PayActivity"/>
         <activity android:name=".view.activity.H5PayDemoActivity"/>
+        <activity android:name=".view.activity.IMActivity"/>
         <activity
             android:name="com.alipay.sdk.app.H5PayActivity"
             android:configChanges="orientation|keyboardHidden|navigation|screenSize"

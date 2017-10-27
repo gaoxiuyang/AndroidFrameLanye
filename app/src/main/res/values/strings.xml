@@ -9,4 +9,8 @@
     <string name="alipay">支付宝</string>
     <string name="wechatpay">微信支付</string>
     <string name="unionpay">银联支付</string>
+    <string name="IM">IM模块</string>
+    <string name="push">推送模块</string>
+    <string name="leanCloud">LeanCloud</string>
+
 </resources>

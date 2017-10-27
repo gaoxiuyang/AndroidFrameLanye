@@ -21,6 +21,8 @@ public class FunctionModuleActivity extends AppCompatActivity {
     TextView tvBack;
     @BindView(R.id.btn_pay)
     Button btnPay;
+    @BindView(R.id.btn_IM)
+    Button btnIM;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,9 +32,16 @@ public class FunctionModuleActivity extends AppCompatActivity {
 
     }
 
-    @OnClick(R.id.tv_back )
-    public void quit(){
+    @OnClick(R.id.tv_back)
+    public void quit() {
         this.finish();
+    }
+
+    @OnClick(R.id.btn_IM)
+    public void im() {
+        Intent intent = new Intent();
+        intent.setClass(FunctionModuleActivity.this, IMActivity.class);
+        startActivity(intent);
     }
 
     @OnClick(R.id.btn_pay)
